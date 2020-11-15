@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.6.1",
-      "buildId": "dafozkcrmfezhhhnoauerrcbee"
+      "buildId": "wyixqyutubayzcb2zxsyxgzzx4"
     }
   },
   "variants": [
@@ -39,11 +39,11 @@
         {
           "name": "kriess-0.1.0.jar",
           "url": "kriess-0.1.0.jar",
-          "size": 18974386,
-          "sha512": "a923618d57be8c9bbd4e09e60ff6f8a8ff57c9c97da4331883bda0a4fd040efee3a8430a4f468adb8bd52a535db0ee8781a916c316d1ec100b69257afa22fa30",
-          "sha256": "266376c68c87f791f2d4f7a1ac5325b7d8de2a7eb494631704c2a2bb0e137860",
-          "sha1": "d4dc3404e78f798a0e0beb563b3d40ef2623fc0f",
-          "md5": "64d4f34f9e1a350885877eafd14d0e36"
+          "size": 27890,
+          "sha512": "d7aaaf04aff6f05f40105f893c5f40e3d2425ff4ebe54493de37df8c9f5c073081334e321c43cfa89fd2a0f9c274dbc87de06fae9ffaaab93957b1f63198058e",
+          "sha256": "3868592ba5f16af670a2795181228ac1127158d1bd2ad358a65b035a3ed0ec8a",
+          "sha1": "a288dd6ccd788125f56f9fa83f2c222a76865bb8",
+          "md5": "33d559ad9485ab3cd5be914c1aad9462"
         }
       ]
     },
@@ -106,11 +106,11 @@
         {
           "name": "kriess-0.1.0.jar",
           "url": "kriess-0.1.0.jar",
-          "size": 18974386,
-          "sha512": "a923618d57be8c9bbd4e09e60ff6f8a8ff57c9c97da4331883bda0a4fd040efee3a8430a4f468adb8bd52a535db0ee8781a916c316d1ec100b69257afa22fa30",
-          "sha256": "266376c68c87f791f2d4f7a1ac5325b7d8de2a7eb494631704c2a2bb0e137860",
-          "sha1": "d4dc3404e78f798a0e0beb563b3d40ef2623fc0f",
-          "md5": "64d4f34f9e1a350885877eafd14d0e36"
+          "size": 27890,
+          "sha512": "d7aaaf04aff6f05f40105f893c5f40e3d2425ff4ebe54493de37df8c9f5c073081334e321c43cfa89fd2a0f9c274dbc87de06fae9ffaaab93957b1f63198058e",
+          "sha256": "3868592ba5f16af670a2795181228ac1127158d1bd2ad358a65b035a3ed0ec8a",
+          "sha1": "a288dd6ccd788125f56f9fa83f2c222a76865bb8",
+          "md5": "33d559ad9485ab3cd5be914c1aad9462"
         }
       ]
     },
@@ -125,13 +125,13 @@
       },
       "files": [
         {
-          "name": "kriess-0.1.0.jar",
-          "url": "kriess-0.1.0.jar",
-          "size": 18974386,
-          "sha512": "a923618d57be8c9bbd4e09e60ff6f8a8ff57c9c97da4331883bda0a4fd040efee3a8430a4f468adb8bd52a535db0ee8781a916c316d1ec100b69257afa22fa30",
-          "sha256": "266376c68c87f791f2d4f7a1ac5325b7d8de2a7eb494631704c2a2bb0e137860",
-          "sha1": "d4dc3404e78f798a0e0beb563b3d40ef2623fc0f",
-          "md5": "64d4f34f9e1a350885877eafd14d0e36"
+          "name": "kriess-0.1.0-all.jar",
+          "url": "kriess-0.1.0-all.jar",
+          "size": 8233959,
+          "sha512": "63301f02597c190f9bb81bce5b1077908b3f95a8e14e888b0985117cdd0ae21ae587f674017409d5eaf8cca0f22b11f162e8ca9b2128c0eba88f95a8bfc01880",
+          "sha256": "6405b2182ed3da68187e99e30fb977085daf764a23ba5482a460b6f58d2e8e59",
+          "sha1": "6d414d538e7f1a9e06abd19efb0dec138159ae06",
+          "md5": "a890740591cc9a4898fdc931971c532b"
         }
       ]
     }
