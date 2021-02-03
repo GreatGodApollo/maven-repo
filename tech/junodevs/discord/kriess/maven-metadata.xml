@@ -3,15 +3,21 @@
   <groupId>tech.junodevs.discord</groupId>
   <artifactId>kriess</artifactId>
   <versioning>
-    <latest>0.4.0</latest>
-    <release>0.4.0</release>
+    <latest>0.5.5</latest>
+    <release>0.5.5</release>
     <versions>
       <version>0.1.0</version>
       <version>0.1.1</version>
       <version>0.2.0</version>
       <version>0.3.0</version>
       <version>0.4.0</version>
+      <version>0.5.0</version>
+      <version>0.5.1</version>
+      <version>0.5.2</version>
+      <version>0.5.3</version>
+      <version>0.5.4</version>
+      <version>0.5.5</version>
     </versions>
-    <lastUpdated>20210116025848</lastUpdated>
+    <lastUpdated>20210203175751</lastUpdated>
   </versioning>
 </metadata>

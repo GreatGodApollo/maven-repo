@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.junodevs.discord",
+    "module": "kriess",
+    "version": "0.5.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7",
+      "buildId": "jr7d2pt6xradphmjy6kxb3dpw4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "net.dv8tion",
+          "module": "JDA",
+          "version": {
+            "requires": "4.2.0_207"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kriess-0.5.2.jar",
+          "url": "kriess-0.5.2.jar",
+          "size": 55321,
+          "sha512": "92489a4f133a3721410dace1c493561641d59f64ddb486253b4d51f6103450b103b688f2acf75c997ae7c51e107b36b244338e35c4b4ca316cc8c768fa3fdbe0",
+          "sha256": "f890e456d81150be9192a802cd85ae6993b60e4f636268891cdcccc963b49086",
+          "sha1": "a53c1daa52f461d9460153d383e6f1e1b542f267",
+          "md5": "902d2f81ffbf37c6b6e5e55337822c11"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.27"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "28.0-jre"
+          }
+        },
+        {
+          "group": "me.xdrop",
+          "module": "fuzzywuzzy",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "net.dv8tion",
+          "module": "JDA",
+          "version": {
+            "requires": "4.2.0_207"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kriess-0.5.2.jar",
+          "url": "kriess-0.5.2.jar",
+          "size": 55321,
+          "sha512": "92489a4f133a3721410dace1c493561641d59f64ddb486253b4d51f6103450b103b688f2acf75c997ae7c51e107b36b244338e35c4b4ca316cc8c768fa3fdbe0",
+          "sha256": "f890e456d81150be9192a802cd85ae6993b60e4f636268891cdcccc963b49086",
+          "sha1": "a53c1daa52f461d9460153d383e6f1e1b542f267",
+          "md5": "902d2f81ffbf37c6b6e5e55337822c11"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "embedded",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kriess-0.5.2-all.jar",
+          "url": "kriess-0.5.2-all.jar",
+          "size": 19039023,
+          "sha512": "ab0c91d73eb1813f63fcccb5bd0fb19367163bf026614624a078cb18a374bd1d89263df1dcc7fcea1972fe0a9bcf6b02631cede766920c44a6266a828ed25aaa",
+          "sha256": "b2f06b3ea721c909b1624b90d3c746f5a87e41f1598c291d50103eb6555b8429",
+          "sha1": "e81326d06de746953b5e4f5c186fc50959bdeb46",
+          "md5": "1c1b505b4ce3d4fb61d2f64b899d51c7"
+        }
+      ]
+    }
+  ]
+}
