@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "xyz.brettb",
+    "module": "arrow",
+    "version": "0.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "me.ialistannen",
+          "module": "MiniNBT",
+          "version": {
+            "requires": "1.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "arrow-0.0.2.jar",
+          "url": "arrow-0.0.2.jar",
+          "size": 67987,
+          "sha512": "4330e48360ea13ba1a35e7dc035a72a997a4e7185b5cc400c8e7e64cffdb05049b721c7256a9ecd42697b4fdf4c4a20208ac43894edffc552d1f90466980e112",
+          "sha256": "e8fe98d103c0be39e4100b9a50903dd8387e00495d2f8c362543aff09d69c358",
+          "sha1": "eff97f3939e38f7b6b0a5ecc0fcddbd76501fda2",
+          "md5": "f3712992ee4d54a86e18f87d99ca5209"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.cryptomorin",
+          "module": "XSeries",
+          "version": {
+            "requires": "9.1.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "me.ialistannen",
+          "module": "MiniNBT",
+          "version": {
+            "requires": "1.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "arrow-0.0.2.jar",
+          "url": "arrow-0.0.2.jar",
+          "size": 67987,
+          "sha512": "4330e48360ea13ba1a35e7dc035a72a997a4e7185b5cc400c8e7e64cffdb05049b721c7256a9ecd42697b4fdf4c4a20208ac43894edffc552d1f90466980e112",
+          "sha256": "e8fe98d103c0be39e4100b9a50903dd8387e00495d2f8c362543aff09d69c358",
+          "sha1": "eff97f3939e38f7b6b0a5ecc0fcddbd76501fda2",
+          "md5": "f3712992ee4d54a86e18f87d99ca5209"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "arrow-0.0.2-all.jar",
+          "url": "arrow-0.0.2-all.jar",
+          "size": 5374926,
+          "sha512": "c8ce17b402f2ba0922ceba767184c6befe3ecee746af91f6b0527c903878b7e48f8cf7b8c2650c07f5214b6e7febbe49361c5b8206fa3f59247a29bd056c8c03",
+          "sha256": "8de40b9749d51438922f3e7ae0021fced737c558161a5ad5ac978a79993e6e81",
+          "sha1": "f47163b40eb9a5a06eeea0068cf2582293931b34",
+          "md5": "4809274e2db70be12639b49e86ecfaab"
+        }
+      ]
+    }
+  ]
+}

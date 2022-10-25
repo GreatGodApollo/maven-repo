@@ -23,22 +23,22 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>me.ialistannen</groupId>
+      <artifactId>MiniNBT</artifactId>
+      <version>1.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>com.github.cryptomorin</groupId>
       <artifactId>XSeries</artifactId>
       <version>9.1.0</version>
-      <scope>compile</scope>
+      <scope>runtime</scope>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
           <groupId>*</groupId>
         </exclusion>
       </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>me.ialistannen</groupId>
-      <artifactId>MiniNBT</artifactId>
-      <version>1.0.2</version>
-      <scope>compile</scope>
     </dependency>
   </dependencies>
 </project>

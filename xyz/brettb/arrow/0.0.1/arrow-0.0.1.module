@@ -41,19 +41,6 @@
           }
         },
         {
-          "group": "com.github.cryptomorin",
-          "module": "XSeries",
-          "version": {
-            "requires": "9.1.0"
-          },
-          "excludes": [
-            {
-              "group": "*",
-              "module": "*"
-            }
-          ]
-        },
-        {
           "group": "me.ialistannen",
           "module": "MiniNBT",
           "version": {
@@ -65,11 +52,11 @@
         {
           "name": "arrow-0.0.1.jar",
           "url": "arrow-0.0.1.jar",
-          "size": 67989,
-          "sha512": "a6260f2bf6f4f179c09c14bcd9d5fea81ee5636e563faa8af15e526f508bff6393bd6f68e6f0f2e5a3ce9378c5a52477a286d836693ed6e0bccb8f1086aef39d",
-          "sha256": "9c87bbdb5665497125c6b66b79cd569d02e302c0f0494efa6714acbee15bda91",
-          "sha1": "143cf4ee274a8282481c0bf5c4b2a3265b41391c",
-          "md5": "cbb0286d82f9b97816803baed56b64b1"
+          "size": 67987,
+          "sha512": "d4a0de99b276573d9ccd9a6a68310947f71fd2a12cdd3374bd4d3ab4b3e812207357dd382677f17eb4568671e40d08d08c82b9b3113dad0ed89b5eb50f0328b6",
+          "sha256": "d27b373deda571158ed05c8c0c77937fc7b966f99619503f0a92fb0b3d72ff2b",
+          "sha1": "264f92b1f3fa707362af5aee6420efcc2ffa60a6",
+          "md5": "82765b4f9d84f0ce980576c6571485e1"
         }
       ]
     },
@@ -86,6 +73,19 @@
       },
       "dependencies": [
         {
+          "group": "com.github.cryptomorin",
+          "module": "XSeries",
+          "version": {
+            "requires": "9.1.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-jdk8",
           "version": {
@@ -100,19 +100,6 @@
           }
         },
         {
-          "group": "com.github.cryptomorin",
-          "module": "XSeries",
-          "version": {
-            "requires": "9.1.0"
-          },
-          "excludes": [
-            {
-              "group": "*",
-              "module": "*"
-            }
-          ]
-        },
-        {
           "group": "me.ialistannen",
           "module": "MiniNBT",
           "version": {
@@ -124,11 +111,11 @@
         {
           "name": "arrow-0.0.1.jar",
           "url": "arrow-0.0.1.jar",
-          "size": 67989,
-          "sha512": "a6260f2bf6f4f179c09c14bcd9d5fea81ee5636e563faa8af15e526f508bff6393bd6f68e6f0f2e5a3ce9378c5a52477a286d836693ed6e0bccb8f1086aef39d",
-          "sha256": "9c87bbdb5665497125c6b66b79cd569d02e302c0f0494efa6714acbee15bda91",
-          "sha1": "143cf4ee274a8282481c0bf5c4b2a3265b41391c",
-          "md5": "cbb0286d82f9b97816803baed56b64b1"
+          "size": 67987,
+          "sha512": "d4a0de99b276573d9ccd9a6a68310947f71fd2a12cdd3374bd4d3ab4b3e812207357dd382677f17eb4568671e40d08d08c82b9b3113dad0ed89b5eb50f0328b6",
+          "sha256": "d27b373deda571158ed05c8c0c77937fc7b966f99619503f0a92fb0b3d72ff2b",
+          "sha1": "264f92b1f3fa707362af5aee6420efcc2ffa60a6",
+          "md5": "82765b4f9d84f0ce980576c6571485e1"
         }
       ]
     },
@@ -144,11 +131,11 @@
         {
           "name": "arrow-0.0.1-all.jar",
           "url": "arrow-0.0.1-all.jar",
-          "size": 5374928,
-          "sha512": "37047c2e7f553f020e1b14a2c77cc0cab774ccb4b434c7658dbd30f5abc77b1de71ad3ec27151abd26fe1156a52306754e958ddef32857c25f1d56f440c7e09e",
-          "sha256": "2de390be37f5cafa50e4ffe8cb1da9f2fea88ac53d3addd2cd582d52fe6ee2f9",
-          "sha1": "1edc7e782a631f7bba1848d00c40920f543cc422",
-          "md5": "b2d56b1b73707e9012cecb62f4bcb768"
+          "size": 5374926,
+          "sha512": "4b932c4a999d657f10f70b526d526b4430895ef1eb249b4fef4f8e9f2099fb10d6d2bfe63e37c350b99f1c707b8ac6d77260c1015c118c5a45e89b3dc5564e6e",
+          "sha256": "ee74f20ba6c7baa1f163a5fd410715d904906bb37056b55f5d1a7b3a53742ed2",
+          "sha1": "471179f7d9fff8a7c713ce8457e1747fc5fce537",
+          "md5": "fce7a6f0ac5951dc94a2df7a191bf8aa"
         }
       ]
     }
