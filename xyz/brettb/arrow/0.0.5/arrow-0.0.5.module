@@ -1,0 +1,156 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "xyz.brettb",
+    "module": "arrow",
+    "version": "0.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "com.github.cryptomorin",
+          "module": "XSeries",
+          "version": {
+            "requires": "9.1.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "me.ialistannen",
+          "module": "MiniNBT",
+          "version": {
+            "requires": "1.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "arrow-0.0.5.jar",
+          "url": "arrow-0.0.5.jar",
+          "size": 71084,
+          "sha512": "6ade1578a199d12f28943283c3bd5133fc12a9eff3da541a30203e42991a699a910f58dd4d118495d9f750a7bcdeb515fbc3792d000a22d94762b084b05b2d13",
+          "sha256": "eacfe03111c821ef8813694d4c6b6982a8b1fa41647437ffd5c8e367cd3028eb",
+          "sha1": "815f1366e79355a82d56ed8e9f1312f68ee8984c",
+          "md5": "5ba2669669b91ebdc580cecc1d983743"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "com.github.cryptomorin",
+          "module": "XSeries",
+          "version": {
+            "requires": "9.1.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "me.ialistannen",
+          "module": "MiniNBT",
+          "version": {
+            "requires": "1.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "arrow-0.0.5.jar",
+          "url": "arrow-0.0.5.jar",
+          "size": 71084,
+          "sha512": "6ade1578a199d12f28943283c3bd5133fc12a9eff3da541a30203e42991a699a910f58dd4d118495d9f750a7bcdeb515fbc3792d000a22d94762b084b05b2d13",
+          "sha256": "eacfe03111c821ef8813694d4c6b6982a8b1fa41647437ffd5c8e367cd3028eb",
+          "sha1": "815f1366e79355a82d56ed8e9f1312f68ee8984c",
+          "md5": "5ba2669669b91ebdc580cecc1d983743"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "arrow-0.0.5-all.jar",
+          "url": "arrow-0.0.5-all.jar",
+          "size": 5360254,
+          "sha512": "7d8958379a5b21c2df6b017ed952933820ab33bf74515f0bfeecbe0b30b86b3b6149eefd0c00989cd5879b7bb97bde770cad61286756bd6168b9d56c040830c0",
+          "sha256": "2501675062cc4b5ec510c8f42160c782fc05fd9bb8feaee2cce0f5dd3fd224d0",
+          "sha1": "f3877b2cf428d86fd59083c9c520acd58955dbd4",
+          "md5": "eafd66125f9d5de42700066ca0965823"
+        }
+      ]
+    }
+  ]
+}
