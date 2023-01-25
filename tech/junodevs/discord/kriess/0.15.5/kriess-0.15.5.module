@@ -1,0 +1,172 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.junodevs.discord",
+    "module": "kriess",
+    "version": "0.15.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 19,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "net.dv8tion",
+          "module": "JDA",
+          "version": {
+            "requires": "5.0.0-beta.3"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.4.4"
+          }
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.33"
+          }
+        },
+        {
+          "group": "me.xdrop",
+          "module": "fuzzywuzzy",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kriess-0.15.5.jar",
+          "url": "kriess-0.15.5.jar",
+          "size": 104057,
+          "sha512": "16d3bf46107cae89e1087639e8814d19f2742f34b9c5cdef1de6077be157fbd48a3847265359ffab4fb9b18d069941145316f4e9793ca86cc8afdf649b1a25ec",
+          "sha256": "afe765f2a76b16d2e4235a6872f5c640441cc59bfd87002b73444d0e9847e78a",
+          "sha1": "cf85716d1ad73d9f74516decda6d25d0f15cbb17",
+          "md5": "6d9321df3b50585c48469ef9fed4be5f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 19,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.1-jre"
+          }
+        },
+        {
+          "group": "net.dv8tion",
+          "module": "JDA",
+          "version": {
+            "requires": "5.0.0-beta.3"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.4.4"
+          }
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.33"
+          }
+        },
+        {
+          "group": "me.xdrop",
+          "module": "fuzzywuzzy",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kriess-0.15.5.jar",
+          "url": "kriess-0.15.5.jar",
+          "size": 104057,
+          "sha512": "16d3bf46107cae89e1087639e8814d19f2742f34b9c5cdef1de6077be157fbd48a3847265359ffab4fb9b18d069941145316f4e9793ca86cc8afdf649b1a25ec",
+          "sha256": "afe765f2a76b16d2e4235a6872f5c640441cc59bfd87002b73444d0e9847e78a",
+          "sha1": "cf85716d1ad73d9f74516decda6d25d0f15cbb17",
+          "md5": "6d9321df3b50585c48469ef9fed4be5f"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kriess-0.15.5-all.jar",
+          "url": "kriess-0.15.5-all.jar",
+          "size": 22908298,
+          "sha512": "d09e482c41859701ff56a273bd8f71f88e4231162add7f55ccd8ba36d1560aa6451dbd22f5493ae8f15cb5af661c07e7162ea3759628aec569ffd8070601043b",
+          "sha256": "b3de3bebb6ce63e2e7a178673545289510e74f45f1b77b61cde631d6e9dbb0fb",
+          "sha1": "7f4a8530563bdd9fbc9c64641651e237ed590a75",
+          "md5": "3fd4c01b1aea2977d9e4c0c67dca4362"
+        }
+      ]
+    }
+  ]
+}
